@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Diagnostic"
+    android:background="@drawable/noirfonce"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RESULT OF DIAGNOSTIC"
+            android:textColor="@color/colorOrange"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="179dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+
+            android:text="          P0100     :"
+            android:textColor="@color/colorBlanc"
+
+
+            />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="171dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+
+            android:text="         -------------------------"
+            android:textColor="@color/colorBlanc"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="179dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+
+            android:text="          P0217     :"
+            android:textColor="@color/colorBlanc"
+
+
+            />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="171dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+
+            android:text="         -------------------------"
+            android:textColor="@color/colorBlanc"
+
+
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="179dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+
+            android:text="          P0218     :"
+            android:textColor="@color/colorBlanc"
+
+
+            />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="171dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+
+            android:text="         -------------------------"
+            android:textColor="@color/colorBlanc"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="179dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+
+            android:text="          P0515     :"
+            android:textColor="@color/colorBlanc"
+
+
+            />
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="171dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+
+            android:text="         -------------------------"
+            android:textColor="@color/colorBlanc"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="179dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+
+            android:text="          P0802     :"
+            android:textColor="@color/colorBlanc"
+
+
+            />
+
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="171dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+
+            android:text="         -------------------------"
+            android:textColor="@color/colorBlanc"
+
+
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="179dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+
+            android:text="          P2067     :"
+            android:textColor="@color/colorBlanc"
+
+
+            />
+
+        <TextView
+            android:id="@+id/tv12"
+            android:layout_width="171dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+
+            android:text="         -------------------------"
+            android:textColor="@color/colorBlanc"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tv13"
+            android:layout_width="179dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+
+            android:text="          P0507     :"
+            android:textColor="@color/colorBlanc"
+
+
+            />
+
+        <TextView
+            android:id="@+id/tv14"
+            android:layout_width="171dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+
+            android:text="         -------------------------"
+            android:textColor="@color/colorBlanc"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <Button
+
+
+        android:id="@+id/button"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/buttonshape"
+        android:gravity="center"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text=" show "
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="80dp"
+
+
+
+
+
+
+
+
+
+        />
+
+</LinearLayout>
